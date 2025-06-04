@@ -4,22 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <title>Document</title>
+    <title>cardapio</title>
 </head>
 <body>
 <section>
     <header>CARDAPIO</header>
-
-    <p><input type="checkbox" name="radsabor" id="calabresa">
-        <label for="bresa">-CALABRESA-</label></p>
-        
-    <p><input type="checkbox" name="radsabor" id="mussarela">
-        <label for="mussa">-MUSSARELA-</label></p>
-
-    <p><input type="checkbox" name="radsabor" id="presunto">
-        <label for="presun">-PRESUNTO-</label></p>
-
-        <P><input type="button" value="comprar" onclick="comprar()"></P>
+<div id="cardapio">
+    <div class="card" style="width: 15rem;">
+        <img src="img/calabresa.png" class="card-img-top" alt="sabor calabresa">
+        <div class="card-body">
+          <h5 class="card-title">Calabresa</h5>
+          <p class="card-text">Preço: <br>
+        <strong>R$ 32,00</strong></p>
+        <input type="button" value="comprar" onclick="comprar()">
+        </div>
+      </div>
+      <!--<div class="card" style="width: 18rem;">
+        <img src="img/" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div> -->
+</div>
+        <P></P>
 
         <div id = "carrinho">carrinho</div>
 
