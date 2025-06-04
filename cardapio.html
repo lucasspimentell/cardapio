@@ -1,54 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <title>cardapio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <title>cardapio</title>
 </head>
+
 <body>
-<section>
-    <header>CARDAPIO</header>
-<div id="cardapio">
-    <div class="card" style="width: 15rem;">
-        <img src="img/calabresa.png" class="card-img-top" alt="sabor calabresa">
-        <div class="card-body">
-          <h5 class="card-title">Calabresa</h5>
-          <p class="card-text">Preço: <br>
-        <strong>R$ 32,00</strong></p>
-        <input type="button" value="comprar" onclick="comprar()">
+  <section>
+    <header><strong>CARDAPIO</strong> <div id="carrinho"><a href="carrinho.html"> <img src="img/carrinho.png" alt="carrinho" width="50px"></a></div></header>
+
+    <div id="cardapio">
+
+      <div id="pizza">
+        <div id="card1" style="width: 15rem;">
+          <img id="img" src="img/calabresa.png" class="card-img-top" alt="sabor calabresa">
+          <div class="card-body">
+            <h3 class="card-title">Calabresa</h3>
+            <p class="card-text">Preço: <br>
+              <strong>R$ 32,00</strong>
+            </p>
+            <input id="btn" type="button" value="comprar" onclick="comprar('calabresa')">
+          </div>
+        </div>
+        <div id="ingre">
+          <p>feita com linguiça em rodelas, cebola, molho de tomate, queijo, azeite e orégano, mas essa delícia italiana
+            pode ganhar novos ingredientes que elevam ainda mais o seu sabor.</p>
         </div>
       </div>
-      <!--<div class="card" style="width: 18rem;">
-        <img src="img/" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+
+      <div id="pizza2">
+        <div id="card2" style="width: 15rem;">
+          <img id="img" src="img/mussarela.png" class="card-img-top" alt="sabor calabresa">
+          <div class="card-body">
+            <h3 class="card-title">Mussarela</h3>
+            <p class="card-text">Preço: <br>
+              <strong>R$ 32,00</strong>
+            </p>
+            <input id="btn" type="button" value="comprar" onclick="comprar()">
+          </div>
+
+        </div>
+        <div id="ingre2">
+          <p>Tradicionalmente, a pizza de mussarela conta apenas com a massa, molho de tomate, mussarela e orégano.
+            Esses poucos ingredientes são mais do que essenciais para deixar a receita completa e irresistível. Há quem
+            gosta de adicionar ketchup, mostarda ou manjericão por cima.</p>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div id="pizza3">
+        <div id="card3" style="width: 15rem;">
+          <img id="img" src="img/presunto.png" class="card-img-top" alt="sabor calabresa" height="140px">
+          <div class="card-body">
+            <h3 class="card-title">Presunto</h3>
+            <p class="card-text">Preço: <br>
+              <strong>R$ 32,00</strong>
+            </p>
+            <input id="btn" type="button" value="comprar" onclick="comprar()">
+          </div>
         </div>
-      </div> -->
-</div>
-        <P></P>
+        <div id="ingre3">
+          <p>molho de tomate.
+            300 g de queijo mussarela em pedaços (não fatias)
+            3 tomates cortados em fatias.
+            orégano a gosto.resunto de Parma (porcos obrigatoriamente do Norte da Itália e que receberem lacto soro de parmesão) e de San Daniel</p>
+        </div>
+      </div>
 
-        <div id = "carrinho">carrinho</div>
+    </div>
+    <P></P>
 
-        <footer>&copy;pizza</footer>
+   
 
-</section>
+    <footer>&copy;pizza</footer>
 
-
-
-
+  </section>
 
 
-    <script src="script.js"></script>
+
+
+
+
+  <script src="script.js"></script>
 </body>
+
 </html>

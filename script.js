@@ -1,13 +1,13 @@
-function comprar() {
+function comprar(nome) {
     var carro = document.getElementById("carrinho");
-    var sabor = document.getElementsByName("radsabor");
+    var sabor = document.getElementById("pizza");
 
    
     var saborpizz = ''
     var img = document.createElement('img')
     img.setAttribute('id','foto')
 
-    if (sabor[0].checked) {
+    if (sabor.value == "pizza") {
         saborpizz = 'calabresa'
         img.setAttribute('src', 'img/calabresa.png')
 
