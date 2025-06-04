@@ -13,7 +13,7 @@ header {
     font-family: cursive;
     font-size: 35px;
     box-sizing: border-box;
-    overflow: ;
+    
 }
 
 section {
@@ -117,6 +117,7 @@ div {
     
     text-decoration: none;
     background-color: #ee8610;
+    
     width: 90px;
     height: 30px;
     border-radius: 4px;

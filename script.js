@@ -1,26 +1,20 @@
-function comprar(nome) {
-    var carro = document.getElementById("carrinho");
-    var sabor = document.getElementById("pizza");
+function comprar(botao) { /*   função com parametro do botão para que o botão clicado seja acionado aqui e assim ativar as funçôes*/
 
-   
-    var saborpizz = ''
-    var img = document.createElement('img')
-    img.setAttribute('id','foto')
 
-    if (sabor.value == "pizza") {
-        saborpizz = 'calabresa'
-        img.setAttribute('src', 'img/calabresa.png')
+    if( botao.value == "comprar"){
+       
+         botao.value = "Adicionado";
+         botao.style.background = "limegreen";
+         /*if(botao.value == "Adicionado"){
+            alert("Adionado ao carrinho");
+         }*/
+         
 
-    } else if (sabor[1].checked) {
-        saborpizz = 'mussarela'
-        img.setAttribute('src','img/mussarela.png')
-
-    } else if (sabor[2].checked) {
-        saborpizz = 'presunto'
-        img.setAttribute('src','img/presunto.png')
+    }else{
+        
+         botao.value = "comprar";
+         botao.style.background = "#ee8610";
     }
-
-    carro.innerHTML = saborpizz
-    carro.appendChild(img)
-
+   
+    
 }
