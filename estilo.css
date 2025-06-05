@@ -1,4 +1,5 @@
 body {
+    background-image: url("img/fundofinal.png");
     background-color: rgb(226, 219, 219);
 }
 
@@ -7,17 +8,16 @@ header {
     width: 100%;
     background-color: rgb(183, 5, 5);
     padding: 10px;
-    
     color: rgb(250, 247, 247);
     text-align: center;
     font-family: cursive;
-    font-size: 35px;
+    font-size: 25px;
     box-sizing: border-box;
-    
+
 }
 
 section {
-  
+
     /*background-color: rgb(243, 180, 20);*/
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
@@ -25,7 +25,8 @@ section {
     height: 1080px;
     margin: auto;
     box-shadow: 0px 10px 20px black;
-    overflow: hidden; /* <- impede que o header “vaze” */
+    overflow: hidden;
+    /* <- impede que o header “vaze” */
 }
 
 footer {
@@ -101,8 +102,8 @@ div {
 #card1,
 #card2,
 #card3 {
-    
- 
+
+
     background-color: #ffffffbd;
     padding: 10px;
     height: 275px;
@@ -113,11 +114,11 @@ div {
 }
 
 #btn {
-    
-    
+
+
     text-decoration: none;
     background-color: #ee8610;
-    
+
     width: 90px;
     height: 30px;
     border-radius: 4px;
@@ -148,5 +149,8 @@ p {
 }
 
 #carrinho {
+
     text-align: end;
 }
+
+#logo {}
