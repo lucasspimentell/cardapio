@@ -13,7 +13,7 @@ function comprar(botao) { /*   função com parametro do botão para que o botã
      } else {
 
           botao.value = "comprar";
-          botao.style.background = "#ee8610";
+          botao.style.background = " #eedf10";
      }
 
 

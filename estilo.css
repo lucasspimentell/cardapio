@@ -95,8 +95,9 @@ div {
 #ingre,
 #ingre2,
 #ingre3 {
+    border-radius: 5px;
     text-align: center;
-    background-color: rgb(232, 185, 45);
+    background-color: rgb(255, 210, 76);
 }
 
 #card1,
@@ -109,27 +110,27 @@ div {
     height: 275px;
     border: 3px solid;
     border-radius: 25px;
-    border-color: #ffca40;
-    box-shadow: 8px 8px 1px #ffca40;
+    border-color: #ee8610;
+    box-shadow: 8px 8px 1px #ee8610;
 }
 
 #btn {
 
 
     text-decoration: none;
-    background-color: #ee8610;
+    background-color: #eedf10;
 
     width: 90px;
     height: 30px;
     border-radius: 4px;
-    border-color: #ee8610;
-    border: 0px;
+    border-color: #faa03ad8;
+    border: 1px 1px;
 
 
 }
 
 #btn:hover {
-    background-color: #f6d379;
+    background-color: #f5f6a4;
     transition: all;
 }
 
